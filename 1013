@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+int main()
+
+
+{
+    int a,b,c,mb,m;
+    cin>>a>>b>>c;
+    mb = (a+b+abs(a-b))/2;
+    m = (mb+c+abs(mb-c))/2;
+
+    cout<< m <<" eh o maior"<<endl;
+
+
+
+
+
+    return 0;
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
